@@ -1,0 +1,139 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box}
+
+:root{
+    --my-shining-green: #96C93E;
+    margin: 0;
+    padding: 0;
+}
+
+
+a{
+    text-decoration: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+    display: inline;
+
+}
+.mid-br{
+    filter: brightness(0.5);
+}
+.adjust_image{
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(/IMG/honolulu.jpg);
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+.alto_variable{
+
+    height: 50vh;
+}
+
+.textover{
+    z-index: 35 ;
+    color: aliceblue;
+    font-size: larger;
+    right: 0;
+    bottom: 0;
+    text-align: end;    
+    font-size: 3em;
+    margin-right: 5%;
+    line-height: 0.8;
+}
+.fer_green{
+    background-color: var(--my-shining-green);
+    color: aliceblue;
+    font-weight: 700;
+}
+
+
+#logo_codo_a_codo{
+    width: 120px;    
+}
+
+.head_shot{
+    
+    padding: 0;
+    height: 8vh;
+    
+}
+
+.navbar{
+    height: 8vh;
+    margin-bottom: 8vh;
+}
+
+.carousel-inner{
+    height: auto;
+    width: auto;
+
+}
+
+.carousel-inner img{
+    height: 100%;
+}
+ul li a {
+    text-decoration: none;
+    font-size: 1em;
+    color: aliceblue;
+}
+
+@media screen and (max-width:1200px)
+{
+    .p_adapter{
+        font-size: medium;
+
+    }
+    .textover{
+       margin-bottom: 10%;
+    }
+}
+
+footer{
+    flex-wrap: wrap;
+    
+}
+body{
+    min-width: 360px;
+}
+
+#footer_ul{
+    font-size: 0.8em;
+}
+
+.compressed{
+
+    @media screen(min-width: 900px) {
+        height: 60vh;
+        
+    }
+
+}
+
+.col-4 p {
+    padding: 2px;
+}
+.cuadrado{
+    border: 1px solid #0a74e6;
+    
+}
+ ul li a {
+    color: #0a74e6;
+}
+
+@media screen and (max-width:990px)
+{
+    .nav-link {color:rgb(60, 58, 58);stroke: 1px solid aliceblue;}
+    .nav-link:hover { background-color: #96C93E;}
+    
+    
+}
